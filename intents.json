@@ -1,0 +1,120 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+      "responses": ["Hello!","I am good, what about you?", "Good to see you again", "Hi there, how can I help?"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+      "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["My pleasure!", "You're welcome!", "Happy to help 😊"],
+      "context": [""]
+    },
+    {
+      "tag": "query",
+      "patterns": ["What is Simplilearn?"],
+      "responses": ["Simplilearn is a popular online Bootcamp & learning platform offering certification courses."],
+      "context": [""]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Tell me your name"],
+      "responses": ["I'm your friendly assistant!", "I'm a chatbot here to help you anytime."],
+      "context": [""]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How are you?", "How are things?", "How’s it going?"],
+      "responses": ["I'm doing great! How about you?", "I'm always ready to chat!"],
+      "context": [""]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the math book look sad? Because it had too many problems.",
+        "Why don’t skeletons fight each other? They don’t have the guts.",
+        "What do you get when you cross a snowman with a vampire? Frostbite.",
+        "I told my computer I needed a break, and it said: 'No problem, I’ll go to sleep.'",
+        "Why did the Python developer go broke? Because he couldn't `__class__` his debts!",
+        "Why do Python programmers wear glasses? Because they can’t C.",
+        "I told my Python code a joke, but it didn’t laugh. It just raised an Exception.",
+        "Why did the programmer quit his job? Because he didn’t get arrays.",
+        "I wrote a joke in Python. But it was an `IndentationError`!",
+        "What’s a snake’s favorite programming language? Python, obviously!",
+        "Why did the Python function cross the road? To return to the other side!",
+        "I had a problem, so I used Python. Now I have a scripting problem and a dependency problem."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?", "When were you created?"],
+      "responses": ["I'm timeless!", "I live in the cloud, no aging here!"],
+      "context": [""]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": ["What do you do for fun?", "Do you have hobbies?", "What are your hobbies?"],
+      "responses": ["I enjoy chatting, learning, and sharing knowledge with you!", "Helping you is my favorite thing to do."],
+      "context": [""]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who made you?", "Who is your creator?", "Who built you?"],
+      "responses": ["I was built by a team of smart developers!", "Tech lovers brought me to life with code."],
+      "context": [""]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["Tell me a fun fact", "Say something interesting", "Do you know something cool?"],
+      "responses": [
+        "Did you know? Honey never spoils. Archaeologists have found edible honey in ancient Egyptian tombs!",
+        "Octopuses have three hearts and blue blood.",
+        "Bananas are berries, but strawberries aren’t!",
+        "The Eiffel Tower can grow taller in summer due to heat expansion.",
+        "Sharks existed before trees!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "space",
+      "patterns": ["Tell me about the moon", "What is a black hole?", "Do you know about Mars?"],
+      "responses": [
+        "The Moon is Earth’s only natural satellite and affects ocean tides.",
+        "A black hole is a region in space where gravity is so strong that nothing—not even light—can escape.",
+        "Mars is known as the Red Planet and may have once had water on its surface."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["What is Artificial Intelligence?", "Explain machine learning", "What is Python used for?"],
+      "responses": [
+        "AI stands for Artificial Intelligence, where machines are designed to think and learn like humans.",
+        "Machine learning is a subset of AI where systems improve from experience without being explicitly programmed.",
+        "Python is a popular programming language used for web development, AI, data analysis, and more."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "Say something positive", "I need inspiration"],
+      "responses": [
+        "Believe in yourself! Every expert was once a beginner.",
+        "You are capable of amazing things!",
+        "Don’t watch the clock; do what it does. Keep going!"
+      ],
+      "context": [""]
+    }
+  ]
+}
