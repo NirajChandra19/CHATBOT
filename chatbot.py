@@ -6,11 +6,15 @@ import nltk
 from flask import Flask , render_template, request, jsonify
 from flask_cors import CORS
 import difflib
-from openai import OpenAI
+from nltk.stem import WordNetLemmatizer
+from keras.models import load_model
+
+import os
+from dotenv import load_dotenv
 import google.generativeai as genai
 
-#"AIzaSyAsCeJmsbUm9DZWEw8g3wklSoaDdvhUxyY"
-genai.configure(api_key="AIzaSyAsCeJmsbUm9DZWEw8g3wklSoaDdvhUxyY")
+load_dotenv()
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 models = genai.list_models()
 for m in models:
     if "generateContent" in m.supported_generation_methods:
@@ -19,9 +23,6 @@ for m in models:
 app=Flask(__name__)
 CORS(app)
 app.config['SECRET_KEY'] = 'Super sercret key'
-
-from nltk.stem import WordNetLemmatizer
-from keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
 
